@@ -1,17 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from "react-router-dom";
-import cake from "../styles/images/cake-icon.png";
-import cupcake from "../styles/images/cupcake-icon.png";
-import candy from "../styles/images/lolli-icon.png";
-import greenCupcake from "../styles/images/green-cupcakes.jpg"
 
-// <div>
-//     <div className="masthead">
-//         <div className="home-image">
 
-//         </div>
-//     </div>
-//    </div> 
 export default class Home extends Component {
     render() {
         return (

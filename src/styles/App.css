@@ -1,326 +1,358 @@
-  /* font-family: 'Fontdiner Swanky', cursive;
-font-family: 'Kranky', cursive;
-font-family: 'Mountains of Christmas', cursive;
-font-family: 'Ribeye', cursive; */
-  
-  #top-header {
-    /* background: #f7ded9; */
-    background: url("./images/sprinkles2.png") repeat;
-  }
-  
-  .logo-img {
-    width: 227px;
-    height: 300px;
-    background: url("./images/logo-4.png") no-repeat;
-  }
-  
-  .intro {
-    margin-top: 10rem;
-  }
-  
-  .ingredients-image {
-    background-image: url("../styles/images/ingredients.jpeg");
-    height: 400px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    transform: rotate(180 deg);
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-    border: 1rem solid white;
-  }
-  
-  .ingredient-title {
-    color: darkslategray !important;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    font-weight: 400;
-    margin: -2rem 0 0 0;
-  }
-  
-  .billy-image {
-    background-image: url("../styles/images/billy.jpg");
-    height: 500px;
-    width: 40%;
-    border-radius: 50%;
-    float: right;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: top;
-    background-size: cover;
-    overflow: hidden;
-    border: 1rem solid white;
-    /* margin: 0 2rem; */
-  }
-  
-  .recipe-image {
-    background-image: url("../styles/images/recipe-cards.png");
-    height: 400px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-    float: right;
-  }
-  
-  .ingredients {
-    text-align: center;
-    color: darkslategray;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    margin-top: 8rem;
-  }
-  
-  .billy {
-    margin: 2rem 2rem;
-    color: darkslategray;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  }
-  
-  .about {
-    text-align: center;
-    color: darkslategray;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 600;
-    background: #ff8db2 !important;
-    margin-top: -4rem;
-    margin: -4rem 2rem 0 2rem;
-  }
-  
-  .story {
-    color: darkslategray;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 1.7rem;
-    margin: 2rem 2rem;
-  }
-  
-  .container {
-    color: darkgray;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 600;
-    font-size: 1rem;
-    text-transform: uppercase;
-  }
-  
-  #navlink {
-    color: darkslategray;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 600;
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    margin-top: 1rem;
-    /* margin-bottom: -1rem; */
-    margin-left: 1rem;
-  }
-  
-  #navlink:hover {
-    color: #19d6b0;
-  }
-  
-  .cart {
-    color: darkslategray;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 600;
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    margin-top: 1rem;
-    /* margin-bottom: -1rem; */
-    margin-left: 1rem;
-  }
-  
-  #cart {
-    /* width: 100%; */
-    float: right;
-    /* z-index: 50; */
-    background: #9cd4bc;
-    padding: 0.5rem 1rem;
-    margin-bottom: 0.4rem;
-    margin-top: -7.8rem;
-    margin-right: -9rem;
-    border: 1px solid gray;
-  }
-  
-  .fixed-nav {
-    width: 100%;
-    position: fixed;
-    z-index: 10;
-    top: 0;
-  }
-  /* HOME*/
-  
-  .cupcake-image {
-    background-image: url("../styles/images/green-cupcakes.jpg");
-    height: 700px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-  }
-  
-  .cake-image {
-    background-image: url("../styles/images/white-cake.jpg");
-    height: 700px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-  }
-  
-  .pop-image {
-    background-image: url("../styles/images/green-pops.jpg");
-    height: 700px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-  }
-  
-  #white-bg {
-    background: white;
-  }
-  
-  .order-button {
-    background: #ff8db2;
-    color: darkslategray;
-    margin: 0 1rem;
-    border-radius: 1rem;
-  }
-  
-  .caption-text {
-    color: gray;
-  }
-  
-  .item {
-    height: 700px;
-    width: 100%;
-  }
-  /* PRODUCT LINE */
-  
-  .portfolio-item {
-    margin-bottom: 4rem;
-    margin-top: 2rem;
-  }
-  
-  #product-top {
-    margin-top: 4rem;
-  }
-  
-  #test3 {
-    padding-bottom: 4rem;
-  }
-  
-  #test4 {
-    align-items: center;
-    width: 90%;
-    /* border: 1px solid lightgray; */
-    background: white;
-    border-radius: 5px 5px 0 0;
-    margin-bottom: 0;
-    ;
-  }
-  
-  #card-position {
-    align-items: center;
-    width: 90%;
-    /* border: 1px solid lightgray; */
-    background: white;
-    border-radius: 9px 9px;
-    margin-bottom: 0;
-    margin-top: 4rem;
-  }
-  
-  .card-footer {
-    width: 90%;
-    /* background: url("./images/sprinkles2.png") repeat; */
-    text-align: center;
-    background: white;
-    /* border: 1px solid lightgray; */
-  }
-  
-  .image-link {
-    color: #9cd4bc;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 600;
-    font-size: 1rem;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 2rem 0;
-  }
-  
-  .card-title {
-    text-align: center;
-    margin-top: 2rem;
-  }
-  
-  .card-body-detail {
-    color: #9cd4bc;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 600;
-    font-size: 1rem;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  
-  .card-img-top {
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-  }
-  
-  .card-button {
-    background: #9cd4bc;
-    color: darkslategray;
-    margin: 0 1rem;
-    border-radius: 1rem;
-  }
-  
-  .buy {
-    padding: .15rem 1.05rem;
-  }
-  /* PRODUCT DETAIL */
-  
-  .card-img-top-detail {
-    width: 100%;
-  }
-  
-  .detail-box {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .description {
-    color: darkslategray;
-    font-weight: 200;
-    text-transform: none;
-  }
-  /* FOOTER */
-  
-  .small-icon {
-    width: 20%;
-    height: 20%;
-    margin-right: 1.5rem;
-  }
-  /* #footer-top {
-    margin-top: 2.5rem;
-  } */
-  /* CONTACT */
-  
-  .contact-header {
-    color: darkslategray !important;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    font-weight: 600;
-  }
-  
-  .company_address {
-    padding-left: 10rem;
-  }
+    .nav-height {
+      padding-top: 4rem;
+    }
+    
+    .sprinkles {
+      background: url("./images/sprinkles2.png") repeat;
+    }
+    
+    .logo-img {
+      width: 227px;
+      height: 300px;
+      margin-top: 6rem;
+      background: url("./images/logo-4.png") no-repeat;
+      z-index: 999;
+    }
+    
+    .nav-link {
+      color: darkslategray !important;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 1.3rem;
+      margin: -2rem .4rem 1rem .1rem;
+    }
+    
+    .dropdown-item {
+      color: darkslategray !important;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 1rem;
+      background-color: #ff8db2;
+    }
+    
+    #menu-nav {
+      margin-left: 50rem;
+    }
+    /* ABOUT */
+    
+    .intro {
+      margin-top: 10rem;
+    }
+    
+    .ingredients-image {
+      background-image: url("../styles/images/ingredients.jpeg");
+      height: 400px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      transform: rotate(180 deg);
+      background-position: center;
+      background-size: cover;
+      overflow: hidden;
+      border: .5rem solid white;
+    }
+    
+    .ingredient-title {
+      color: darkslategray !important;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+      font-size: 2rem;
+      font-weight: 400;
+      margin: -2rem 0 0 0;
+    }
+    
+    .ingredient-text {
+      color: darkslategray !important;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+      font-size: 1.7rem;
+      font-weight: 400;
+      margin: 0 3rem;
+    }
+    
+    .billy-image {
+      background-image: url("../styles/images/billy-sq.jpg");
+      height: 500px;
+      width: 35%;
+      border-radius: 50%;
+      float: right;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: top;
+      background-size: cover;
+      overflow: hidden;
+      border: .5rem solid white;
+      margin: 0 4rem;
+    }
+    
+    .recipe-image {
+      background-image: url("../styles/images/recipe-cards.png");
+      height: 400px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center;
+      background-size: cover;
+      overflow: hidden;
+      float: right;
+    }
+    
+    .ingredients {
+      text-align: center;
+      color: darkslategray;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      margin-top: 8rem;
+    }
+    
+    .billy {
+      margin: 2rem 2rem;
+      color: darkslategray;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    
+    .about {
+      text-align: center;
+      color: darkslategray;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      background: #ff8db2 !important;
+      margin-top: -4rem;
+      margin: -4rem 2rem 0 2rem;
+    }
+    
+    .story {
+      color: darkslategray;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 1.5rem;
+      line-height: 1.7rem;
+      margin: 2rem 2rem;
+    }
+    
+    .container {
+      color: darkgray;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 1rem;
+      text-transform: uppercase;
+    }
+    
+    #navlink {
+      color: darkslategray;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      margin-top: 1rem;
+      margin-left: 1rem;
+    }
+    
+    #navlink:hover {
+      color: #19d6b0;
+    }
+    
+    .cart {
+      color: darkslategray;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      margin-top: 1rem;
+      margin-left: 1rem;
+    }
+    
+    #cart {
+      float: right;
+      background: #9cd4bc;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.4rem;
+      margin-top: -7.8rem;
+      margin-right: -9rem;
+      border: 1px solid gray;
+    }
+    
+    .cart-container {
+      margin: 6rem;
+    }
+    
+    #cart-button {
+      margin-left: 3.4rem;
+      background: #9cd4bc;
+      border: 1px solid #9cd4bc;
+    }
+    
+    .fixed-nav {
+      width: 100%;
+      position: fixed;
+      z-index: 10;
+      top: 0;
+    }
+    /* HOME*/
+    
+    .cupcake-image {
+      background-image: url("../styles/images/green-cupcakes.jpg");
+      height: 700px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center;
+      background-size: cover;
+      overflow: hidden;
+    }
+    
+    .cake-image {
+      background-image: url("../styles/images/white-cake.jpg");
+      height: 700px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center;
+      background-size: cover;
+      overflow: hidden;
+    }
+    
+    .pop-image {
+      background-image: url("../styles/images/green-pops.jpg");
+      height: 700px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center;
+      background-size: cover;
+      overflow: hidden;
+    }
+    
+    #white-bg {
+      background: white;
+      margin-bottom: 2rem;
+    }
+    
+    .order-button {
+      background: #ff8db2;
+      color: darkslategray;
+      margin: 0 1rem;
+      border-radius: 1rem;
+    }
+    
+    .caption-text {
+      color: gray;
+    }
+    
+    .item {
+      height: 700px;
+      width: 100%;
+    }
+    /* PRODUCT LINE */
+    
+    .portfolio-item {
+      margin-bottom: 4rem;
+      margin-top: 2rem;
+    }
+    
+    #product-top {
+      margin-top: 4rem;
+    }
+    
+    #test3 {
+      padding-bottom: 4rem;
+    }
+    
+    #test4 {
+      align-items: center;
+      width: 90%;
+      background: white;
+      border-radius: 5px 5px 0 0;
+      margin-bottom: 0;
+      ;
+    }
+    
+    #card-position {
+      align-items: center;
+      width: 90%;
+      background: white;
+      border-radius: 9px 9px;
+      margin-bottom: 0;
+      margin-top: 4rem;
+    }
+    
+    .card-footer {
+      width: 90%;
+      text-align: center;
+      background: white;
+    }
+    
+    .image-link {
+      color: #9cd4bc;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 1rem;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 2rem 0;
+    }
+    
+    .card-title {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    
+    .card-body-detail {
+      color: #9cd4bc;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 1rem;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    
+    .card-img-top {
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+    
+    .card-button {
+      background: #9cd4bc;
+      color: darkslategray;
+      margin: 0 1rem;
+      border-radius: 1rem;
+    }
+    
+    .buy {
+      padding: .15rem 1.05rem;
+    }
+    /* PRODUCT DETAIL */
+    
+    .card-img-top-detail {
+      width: 100%;
+    }
+    
+    .detail-box {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .description {
+      color: darkslategray;
+      font-weight: 200;
+      text-transform: none;
+    }
+    /* FOOTER */
+    
+    .small-icon {
+      width: 20%;
+      height: 20%;
+      margin-right: 1.5rem;
+    }
+    /* CONTACT */
+    
+    .contact-header {
+      color: darkslategray !important;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+      font-weight: 600;
+    }
+    
+    .company_address {
+      padding-left: 10rem;
+    }

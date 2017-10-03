@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import productData from "../data/productData";
 
 export default class Cart extends Component {
@@ -199,7 +199,7 @@ export default class Cart extends Component {
                                         </tr>
                                     </tbody>
                                 </table>
-                                <button style={{ width: "90%" }} className="btn btn-primary">
+                                <button id="cart-button" style={{ width: "90%" }} className="btn btn-primary">
                                     CHECK OUT
                 </button>
                             </div>
