@@ -11,7 +11,6 @@ import ProductDetail from './components/ProductDetail';
 import './styles/App.css';
 import './styles/bootstrap.css';
 import './styles/style.css';
-// import './styles/images/logo.png';
 
 class App extends Component {
   render() {
